@@ -1,0 +1,16 @@
+{
+	"name": "yust",
+	"version": "0.0.0",
+	"description": "A node.js template engine derived dust.",
+	"main": "index.js",
+	"author": "mytharcher <mytharcher@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"jsep": "0.2.9",
+		"jseb": "*"
+	},
+	"scripts": {
+		"build": "browserify -s yust . > dist/yust.js && cat dist/yust.js | uglifyjs > dist/yust.min.js",
+		"build-min": "npm run build | uglifyjs"
+	}
+}
