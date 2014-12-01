@@ -6,11 +6,10 @@
 	"author": "mytharcher <mytharcher@gmail.com>",
 	"license": "MIT",
 	"dependencies": {
-		"jsep": "0.2.9",
+		"jsep": "0.3.0",
 		"jseb": "*"
 	},
 	"scripts": {
-		"build": "browserify -s yust . > dist/yust.js && cat dist/yust.js | uglifyjs > dist/yust.min.js",
-		"build-min": "npm run build | uglifyjs"
+		"build": "browserify -s yust . > dist/yust.js && uglifyjs dist/yust.js > dist/yust.min.js"
 	}
 }
