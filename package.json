@@ -1,6 +1,6 @@
 {
 	"name": "yust",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "A node.js template engine derived dust.",
 	"main": "index.js",
 	"author": "mytharcher <mytharcher@gmail.com>",
